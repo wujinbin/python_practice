@@ -1,4 +1,4 @@
-#coding:utf-8
+#-*- coding:utf-8 -*-
 
 '计算两个数的乘积'
 
