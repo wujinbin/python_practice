@@ -9,7 +9,7 @@ def getfactors(num):
 		if num % count == 0:
 			if num/count not in factors:
 				factors.append(num/count)
-			elif count not in factors:
+			if count not in factors:
 				factors.append(count)
 		count -= 1
 	if num == 1:
